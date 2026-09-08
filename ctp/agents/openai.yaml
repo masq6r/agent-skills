@@ -1,0 +1,4 @@
+interface:
+  display_name: "CTP"
+  short_description: "Consult local CTP SDK docs and integration pitfalls"
+  default_prompt: "Use $ctp to answer this CTP question using the local SDK reference and documented pitfalls."

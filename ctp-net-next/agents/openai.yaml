@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ctp.Net.Next"
+  short_description: "Integrate and operate Ctp.Net.Next safely"
+  default_prompt: "Use $ctp-net-next to integrate Ctp.Net.Next into this application safely."
+
+policy:
+  allow_implicit_invocation: true
