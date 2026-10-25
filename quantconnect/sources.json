@@ -1,0 +1,495 @@
+{
+  "repository": "https://github.com/QuantConnect/Documentation",
+  "commit": "4f39bafb4bee339ec252276b2cfae98619e92ab0",
+  "retrieved_on": "2026-10-25",
+  "license": "Apache-2.0; see LICENSE",
+  "integration": "One skill entrypoint; language-specific guides; byte-identical pricing and data-export resources shared. Original guide bodies and supporting reference bytes retained.",
+  "files": [
+    {
+      "source": "LICENSE",
+      "git_blob": "8dada3edaf50dbc082c9a125058f25def75e625a",
+      "destination": "LICENSE",
+      "conversion": "unchanged"
+    },
+    {
+      "source": "skills/csharp/calendar/SKILL.md",
+      "git_blob": "681cb6371dfb92967e70f9a875e2ab409ea43ced",
+      "destination": "references/csharp/calendar/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/code-quality/SKILL.md",
+      "git_blob": "e3e03528e01a345df16cc4e89ef882a60fb5a680",
+      "destination": "references/csharp/code-quality/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/crypto/SKILL.md",
+      "git_blob": "6ae468b64e8bf2170455c81baa833c92b9dff49e",
+      "destination": "references/csharp/crypto/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/data-export/SKILL.md",
+      "git_blob": "ad73fee35e30c3741c9f6b5d75fad9884b45ddb1",
+      "destination": "references/shared/data-export/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/data-issues/SKILL.md",
+      "git_blob": "3c935fa748994018b37f2f3cc6f796b6eac74481",
+      "destination": "references/csharp/data-issues/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/datasets/alternative-data-universes/SKILL.md",
+      "git_blob": "5bd126ea4e546fa12cd483034ab3fdc9bfc73cef",
+      "destination": "references/csharp/datasets/alternative-data-universes/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/datasets/alternative-data/SKILL.md",
+      "git_blob": "9435422b07dbd1dffc7527cba20faa30b65fd3ed",
+      "destination": "references/csharp/datasets/alternative-data/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/datasets/economic-surveys-data/SKILL.md",
+      "git_blob": "1ff909a96a7a62fc0783e8e1754446819cc49acc",
+      "destination": "references/csharp/datasets/economic-surveys-data/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/debug-algorithm/SKILL.md",
+      "git_blob": "0bd76f4eabd3821ea986c075a76e4888c5cabe76",
+      "destination": "references/csharp/debug-algorithm/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/debug-performance/SKILL.md",
+      "git_blob": "d5b1fec2b6ee612b08c5369c1a0b958f3dfdcbd9",
+      "destination": "references/csharp/debug-performance/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/equity-fundamental-data/SKILL.md",
+      "git_blob": "9e2c16231b6a68c4043a69fc5f1ac5900fd77656",
+      "destination": "references/csharp/equity-fundamental-data/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/equity-fundamental-data/fundamental-balance-sheet/SKILL.md",
+      "git_blob": "620cb1c5aed8c2f95d54b7d2d7a4c4aab063e18e",
+      "destination": "references/csharp/equity-fundamental-data/fundamental-balance-sheet/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/equity-fundamental-data/fundamental-cash-flow-statement/SKILL.md",
+      "git_blob": "642c5f996ad82e8de9797fae05cbd712989dafc5",
+      "destination": "references/csharp/equity-fundamental-data/fundamental-cash-flow-statement/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/equity-fundamental-data/fundamental-classification/SKILL.md",
+      "git_blob": "92ccedf171248612eb5b3f379a8b815e1ec924e8",
+      "destination": "references/csharp/equity-fundamental-data/fundamental-classification/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/equity-fundamental-data/fundamental-company-data/SKILL.md",
+      "git_blob": "0df6361a03dd9f90518d98f539edfb02e1d2b095",
+      "destination": "references/csharp/equity-fundamental-data/fundamental-company-data/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/equity-fundamental-data/fundamental-income-statement/SKILL.md",
+      "git_blob": "1a8bd454992524029a3cada50ab58fc9e007aee7",
+      "destination": "references/csharp/equity-fundamental-data/fundamental-income-statement/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/equity-fundamental-data/fundamental-ratios/SKILL.md",
+      "git_blob": "349054ea3cbde232524a92ab17b94836b8dba800",
+      "destination": "references/csharp/equity-fundamental-data/fundamental-ratios/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/equity-options/SKILL.md",
+      "git_blob": "17f5d10469ab32e2759f48a6feeed3316c958a92",
+      "destination": "references/csharp/equity-options/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/futures/SKILL.md",
+      "git_blob": "2d805ef3819a35c6c00883247236427673398e89",
+      "destination": "references/csharp/futures/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/historical-data-equity-options/SKILL.md",
+      "git_blob": "617122ffa4b6040984b44bfd122d6fc7b3ce4644",
+      "destination": "references/csharp/historical-data-equity-options/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/history/SKILL.md",
+      "git_blob": "fda5ed17a371384be17ccac6401118bee96b5cf3",
+      "destination": "references/csharp/history/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/importing-data/custom-data/SKILL.md",
+      "git_blob": "4e182236798399760de8124530b08ed1d6b90299",
+      "destination": "references/csharp/importing-data/custom-data/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/indicators/SKILL.md",
+      "git_blob": "b38ce4897c701a99ee4f4fa90667786c1e764e5d",
+      "destination": "references/csharp/indicators/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/indicators/custom-indicator/SKILL.md",
+      "git_blob": "92bd38270ff0b20f919c1b21c00ae845b24fe936",
+      "destination": "references/csharp/indicators/custom-indicator/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/indicators/indicator-universes/SKILL.md",
+      "git_blob": "dd147e374358d267936487df0a3039f71cec23ad",
+      "destination": "references/csharp/indicators/indicator-universes/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/live-trading/notifications/SKILL.md",
+      "git_blob": "fd72250cfdb07e87510ce33e6e8b9b99b4761437",
+      "destination": "references/csharp/live-trading/notifications/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/logging/SKILL.md",
+      "git_blob": "9d68a5e3902c05421d6e4b6275baf70404d4f144",
+      "destination": "references/csharp/logging/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/option-strategies/SKILL.md",
+      "git_blob": "97a8148707a3943e3812aef26f02bd9ed7f70171",
+      "destination": "references/csharp/option-strategies/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/orders/SKILL.md",
+      "git_blob": "80aad280a617c34b0bf872ec450c274e0eacc060",
+      "destination": "references/csharp/orders/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/pricing/SKILL.md",
+      "git_blob": "c705efef889a003b1ff3adf0668d00b34fc58052",
+      "destination": "references/shared/pricing/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/pricing/references/datasets.md",
+      "git_blob": "778dd89731b99cb911f3fbc562f1fc0abd433593",
+      "destination": "references/shared/pricing/references/datasets.md",
+      "conversion": "unchanged"
+    },
+    {
+      "source": "skills/csharp/pricing/references/docs.md",
+      "git_blob": "4d8c48aa8d17d27bec262dee15a60042c111360b",
+      "destination": "references/shared/pricing/references/docs.md",
+      "conversion": "unchanged"
+    },
+    {
+      "source": "skills/csharp/pricing/references/plan-prices.md",
+      "git_blob": "477543f7bddf317647fa72608ffea149e4bcec2c",
+      "destination": "references/shared/pricing/references/plan-prices.md",
+      "conversion": "unchanged"
+    },
+    {
+      "source": "skills/csharp/pricing/references/plans.md",
+      "git_blob": "0df75b660779ba6ec445d2d2fdb706c75ccfb519",
+      "destination": "references/shared/pricing/references/plans.md",
+      "conversion": "unchanged"
+    },
+    {
+      "source": "skills/csharp/pricing/references/price-book.md",
+      "git_blob": "7b842b77b9e3b953eeeafa6dea04b084b306db93",
+      "destination": "references/shared/pricing/references/price-book.md",
+      "conversion": "unchanged"
+    },
+    {
+      "source": "skills/csharp/scheduled-events/SKILL.md",
+      "git_blob": "fe8e213ef46b99e86c3cde0c8fffbf7d650d3e30",
+      "destination": "references/csharp/scheduled-events/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/universes/SKILL.md",
+      "git_blob": "f709a265049d4cfb6eb936a1ae498cacc3980b3c",
+      "destination": "references/csharp/universes/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/universes/cross-sectional/SKILL.md",
+      "git_blob": "16bec359414bde4171392e98f6c82465cd8f3480",
+      "destination": "references/csharp/universes/cross-sectional/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/universes/equity/chained-universes-options/SKILL.md",
+      "git_blob": "f65e0c84688df5a71f1820e2f9e52599f4a2e41c",
+      "destination": "references/csharp/universes/equity/chained-universes-options/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/csharp/universes/equity/fundamental-universes/SKILL.md",
+      "git_blob": "a97f287bd8dc96df6d766341ba4fa391cb1feb41",
+      "destination": "references/csharp/universes/equity/fundamental-universes/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/calendar/SKILL.md",
+      "git_blob": "d4af8be60aec737a3b2e005145878eeb0f712b7b",
+      "destination": "references/python/calendar/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/code-quality/SKILL.md",
+      "git_blob": "2d16692482cd01d26ebd494883de13dd5b2ce13d",
+      "destination": "references/python/code-quality/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/crypto/SKILL.md",
+      "git_blob": "f1547365f8602d09f51e802cb221ffb34fabc238",
+      "destination": "references/python/crypto/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/data-export/SKILL.md",
+      "git_blob": "ad73fee35e30c3741c9f6b5d75fad9884b45ddb1",
+      "destination": "references/shared/data-export/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/data-issues/SKILL.md",
+      "git_blob": "5c7c20fe99bdbee71862d68256b4f08851fd7f67",
+      "destination": "references/python/data-issues/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/datasets/alternative-data-universes/SKILL.md",
+      "git_blob": "2582d59364e1ed90cbe16900531b0d972d79dae9",
+      "destination": "references/python/datasets/alternative-data-universes/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/datasets/alternative-data/SKILL.md",
+      "git_blob": "49dac44332f20485e23db9b04c95b0e9bd5c97fc",
+      "destination": "references/python/datasets/alternative-data/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/datasets/economic-surveys-data/SKILL.md",
+      "git_blob": "3e30a2adc768d17d5a28d1f6bf81e457dd1668ea",
+      "destination": "references/python/datasets/economic-surveys-data/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/debug-algorithm/SKILL.md",
+      "git_blob": "4ab863f339223fa012c98af1d8ea9b5decccf6d7",
+      "destination": "references/python/debug-algorithm/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/debug-performance/SKILL.md",
+      "git_blob": "2c0c40c611dd0e4415c80d51c66d6f40259ccfe9",
+      "destination": "references/python/debug-performance/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/equity-fundamental-data/SKILL.md",
+      "git_blob": "9193ca314098e69570b90892f54ce89b1517d619",
+      "destination": "references/python/equity-fundamental-data/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/equity-fundamental-data/fundamental-balance-sheet/SKILL.md",
+      "git_blob": "5dbd6f2d7e84781c07bbf5af07aeb7c69062e31b",
+      "destination": "references/python/equity-fundamental-data/fundamental-balance-sheet/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/equity-fundamental-data/fundamental-cash-flow-statement/SKILL.md",
+      "git_blob": "956b99a3d7de3a2b8f9b7604b9098f12bd9aacb7",
+      "destination": "references/python/equity-fundamental-data/fundamental-cash-flow-statement/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/equity-fundamental-data/fundamental-classification/SKILL.md",
+      "git_blob": "0f39da0c9b80eb2c5231166ce91d66ed356da983",
+      "destination": "references/python/equity-fundamental-data/fundamental-classification/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/equity-fundamental-data/fundamental-company-data/SKILL.md",
+      "git_blob": "2b1374e9e391aa4d8b67453ae9342834f074cde5",
+      "destination": "references/python/equity-fundamental-data/fundamental-company-data/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/equity-fundamental-data/fundamental-income-statement/SKILL.md",
+      "git_blob": "16420c0a8d00d52a0eaa32f54149b4a223ca3301",
+      "destination": "references/python/equity-fundamental-data/fundamental-income-statement/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/equity-fundamental-data/fundamental-ratios/SKILL.md",
+      "git_blob": "57149c744ea419f7d4012cac45de63bd755b4e30",
+      "destination": "references/python/equity-fundamental-data/fundamental-ratios/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/equity-options/SKILL.md",
+      "git_blob": "a7977968b133634e64bceeb29ea3cc3fe2ffa4f9",
+      "destination": "references/python/equity-options/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/futures/SKILL.md",
+      "git_blob": "138af17edcfc130bbec0bcaeadebe86c42742b78",
+      "destination": "references/python/futures/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/historical-data-equity-options/SKILL.md",
+      "git_blob": "5563c5680778cd459783077f5ec10f3ece4a53ac",
+      "destination": "references/python/historical-data-equity-options/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/history/SKILL.md",
+      "git_blob": "e97fc86c87f72f6c5a8a4be8d311f8a6f41861d6",
+      "destination": "references/python/history/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/importing-data/custom-data/SKILL.md",
+      "git_blob": "6bd2912c711deb1f1ab8dc5240d2e5e4183df803",
+      "destination": "references/python/importing-data/custom-data/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/indicators/SKILL.md",
+      "git_blob": "a5aa0cdc0f41aecaaf1f21596483bf45e9732040",
+      "destination": "references/python/indicators/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/indicators/custom-indicator/SKILL.md",
+      "git_blob": "057e43e2a31eb20645d215cfb145b1ffdc686a06",
+      "destination": "references/python/indicators/custom-indicator/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/indicators/indicator-universes/SKILL.md",
+      "git_blob": "fba3376a8ebc651a4351d0063196a1840175d037",
+      "destination": "references/python/indicators/indicator-universes/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/live-trading/notifications/SKILL.md",
+      "git_blob": "2ce017013d0df2b0f532a69ea221a6f784c59a16",
+      "destination": "references/python/live-trading/notifications/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/logging/SKILL.md",
+      "git_blob": "0a4818dcc090b4221037bb85b47ee8522342ebc2",
+      "destination": "references/python/logging/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/option-strategies/SKILL.md",
+      "git_blob": "ea7b8e8c403444d488f627c73b6d7aed1e77624f",
+      "destination": "references/python/option-strategies/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/orders/SKILL.md",
+      "git_blob": "db2969d8cd45e26e3d25ea146a6431dd16310104",
+      "destination": "references/python/orders/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/pricing/SKILL.md",
+      "git_blob": "c705efef889a003b1ff3adf0668d00b34fc58052",
+      "destination": "references/shared/pricing/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/pricing/references/datasets.md",
+      "git_blob": "778dd89731b99cb911f3fbc562f1fc0abd433593",
+      "destination": "references/shared/pricing/references/datasets.md",
+      "conversion": "unchanged"
+    },
+    {
+      "source": "skills/python/pricing/references/docs.md",
+      "git_blob": "4d8c48aa8d17d27bec262dee15a60042c111360b",
+      "destination": "references/shared/pricing/references/docs.md",
+      "conversion": "unchanged"
+    },
+    {
+      "source": "skills/python/pricing/references/plan-prices.md",
+      "git_blob": "477543f7bddf317647fa72608ffea149e4bcec2c",
+      "destination": "references/shared/pricing/references/plan-prices.md",
+      "conversion": "unchanged"
+    },
+    {
+      "source": "skills/python/pricing/references/plans.md",
+      "git_blob": "0df75b660779ba6ec445d2d2fdb706c75ccfb519",
+      "destination": "references/shared/pricing/references/plans.md",
+      "conversion": "unchanged"
+    },
+    {
+      "source": "skills/python/pricing/references/price-book.md",
+      "git_blob": "7b842b77b9e3b953eeeafa6dea04b084b306db93",
+      "destination": "references/shared/pricing/references/price-book.md",
+      "conversion": "unchanged"
+    },
+    {
+      "source": "skills/python/scheduled-events/SKILL.md",
+      "git_blob": "ae989be010e9318e0e344351f9ff2a712503048e",
+      "destination": "references/python/scheduled-events/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/universes/SKILL.md",
+      "git_blob": "37ca8089abfeb4bc5cdc253672f9c994cb4843ac",
+      "destination": "references/python/universes/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/universes/cross-sectional/SKILL.md",
+      "git_blob": "e1199c2f6e8661bdbc87c8cc6027de83ad7c9078",
+      "destination": "references/python/universes/cross-sectional/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/universes/equity/chained-universes-options/SKILL.md",
+      "git_blob": "6fd6bc3ae0bb7251ed326cc018ad3faa208677f2",
+      "destination": "references/python/universes/equity/chained-universes-options/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    },
+    {
+      "source": "skills/python/universes/equity/fundamental-universes/SKILL.md",
+      "git_blob": "a137a526a87d6144736c39227c5b3cdcac7ba01a",
+      "destination": "references/python/universes/equity/fundamental-universes/guide.md",
+      "conversion": "frontmatter-to-scope; body unchanged"
+    }
+  ]
+}
