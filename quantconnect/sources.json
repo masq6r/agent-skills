@@ -491,5 +491,173 @@
       "destination": "references/python/universes/equity/fundamental-universes/guide.md",
       "conversion": "frontmatter-to-scope; body unchanged"
     }
-  ]
+  ],
+  "local_extensions": {
+    "repository_root_hint": "~/repos/eXp.nXt/TradeLab",
+    "commit": "94c61738d86d102ac3ca7f1f6398ba9272a2f56c",
+    "reviewed_on": "2026-10-25",
+    "method": "Local source and existing test inspection; original documentation written for this package. Source files are not copied. Source evidence is separate from upstream official skills.",
+    "resources": [
+      "references/tradelab/china.md",
+      "references/tradelab/fathom.md"
+    ],
+    "files": [
+      {
+        "source": "Backtests/Backtests.fsproj",
+        "git_blob": "897f082919c382ed0a09f6023a3f9b1643563fc1"
+      },
+      {
+        "source": "Backtests/Program.fs",
+        "git_blob": "933f545f092f6bb8990721455ff6f9381f870e58"
+      },
+      {
+        "source": "Backtests/Strategies/Demo/ContinuousChnFutureTest.fs",
+        "git_blob": "74cad812f0ba875d9661eec37dd79c67bfc5a299"
+      },
+      {
+        "source": "Backtests/Strategies/Demo/FutureDailyPlusPlayer.fs",
+        "git_blob": "35ac5db6d12fa71d4576684388ad2c6601d435fc"
+      },
+      {
+        "source": "Backtests/Strategies/Demo/FutureDailyPlusPlayer.json",
+        "git_blob": "e7f8dccfa0e5f391cf2bff234ce5bd542ceece6f"
+      },
+      {
+        "source": "Backtests/Strategies/Demo/FutureDailySettlementTest.fs",
+        "git_blob": "e814362bdbc9167b53385ef05b9ac3fac4a47913"
+      },
+      {
+        "source": "Backtests/Strategies/Demo/MixMinuteDailyPlus.fs",
+        "git_blob": "81de89f125e0ec646e5a1b3ab8d1b1bcbcd1de9d"
+      },
+      {
+        "source": "Backtests/Strategies/Turtle/V13/Backtest.o.json",
+        "git_blob": "8af9af16301812531592e0d9e4c606512f76fdbd"
+      },
+      {
+        "source": "Backtests/Strategies/Turtle/V13/Turtle.fs",
+        "git_blob": "1d90dcb43c55756ad5a68e79a1654e3958642e12"
+      },
+      {
+        "source": "Fathom/Extensions.fs",
+        "git_blob": "edc4fd99fa86ffc1060fa46d72888db944162709"
+      },
+      {
+        "source": "Fathom/Fathom.fsproj",
+        "git_blob": "21138482fec26abf4cf86ce7f42763be1bd6304d"
+      },
+      {
+        "source": "Fathom/Launcher.fs",
+        "git_blob": "f419fdcb97cbfb2cb1648a43546ce39c4511aad6"
+      },
+      {
+        "source": "Fathom/Optimiser.fs",
+        "git_blob": "f37374e63a737375bf287ff6df016275875ee40c"
+      },
+      {
+        "source": "Fathom/Program.fs",
+        "git_blob": "d02e500b4cffd7962730cc429c60c5cb70e27b60"
+      },
+      {
+        "source": "Fathom/SharedMemoryDataProvider.fs",
+        "git_blob": "3d51b0cc0c13ca2385ddb0f9a9e3754269392337"
+      },
+      {
+        "source": "Fathom/Tui.fs",
+        "git_blob": "34299e74d9e17749de6807e20c86317b9e30978d"
+      },
+      {
+        "source": "Lean/Algorithm/QCAlgorithm.cs",
+        "git_blob": "9d5907b13e909f4c2d711fcc643b3a310b4ff557"
+      },
+      {
+        "source": "Lean/China/China.fsproj",
+        "git_blob": "c3a7de7a3354941e3a27b2ea4a7d8075deeb5c07"
+      },
+      {
+        "source": "Lean/China/FixedRatioFeeModel.fs",
+        "git_blob": "f945a1c0810c41fd0f2687850a14f761680c1cad"
+      },
+      {
+        "source": "Lean/China/FixedRatioFutureMarginModel.fs",
+        "git_blob": "42b9a06c2ed240086d34bfa3adc9e49354ae6135"
+      },
+      {
+        "source": "Lean/China/FutureAlgorithm.fs",
+        "git_blob": "841ba6768f2461fff8d388e7b98221b5a41d8c11"
+      },
+      {
+        "source": "Lean/China/FutureDailyPlusBar.fs",
+        "git_blob": "9ee2d67b4942c91b0f0a7815da872bd0e78b5bc4"
+      },
+      {
+        "source": "Lean/China/FutureSettlementModel.fs",
+        "git_blob": "fe632e1dd0d8f6953f8edae5629640f03e8e561f"
+      },
+      {
+        "source": "Lean/China/PessimisticSlippageModel.fs",
+        "git_blob": "85472f28e0d5cd5e926b19d5ba8b632a72d0e15b"
+      },
+      {
+        "source": "Lean/Common/Market.cs",
+        "git_blob": "f31fe3bd0e28ac5871eb7a8121781f457366ebdf"
+      },
+      {
+        "source": "Lean/Common/Optimizer/Parameters/OptimizationParameterJsonConverter.cs",
+        "git_blob": "f04f6a287c6f05634b478e53c4b5d11938b191c0"
+      },
+      {
+        "source": "Lean/Configuration/Config.cs",
+        "git_blob": "0e07fdb4080edd85d8d2a20071be86380d2c0c83"
+      },
+      {
+        "source": "Lean/Configuration/LeanArgumentParser.cs",
+        "git_blob": "2d9a06330dd3048495fb6149c0f74a49d69ea4f8"
+      },
+      {
+        "source": "Lean/Engine/Initializer.cs",
+        "git_blob": "cef91f70d40d50a074f931195e28c4b48c9beaa8"
+      },
+      {
+        "source": "Lean/Engine/LeanEngineAlgorithmHandlers.cs",
+        "git_blob": "214212e6d90580438450af9300c4af27181ef066"
+      },
+      {
+        "source": "Lean/Engine/Setup/BacktestingSetupHandler.cs",
+        "git_blob": "2490b78baa78f01a3c1fab7035e5dd65ee6e3369"
+      },
+      {
+        "source": "Lean/Tests/China/ChinaMarketTests.cs",
+        "git_blob": "49a04557903572d6117536e5323781d8c07712bf"
+      },
+      {
+        "source": "Lean/Tests/China/ChinaTestContext.cs",
+        "git_blob": "8797ea6726f290ea8d3ca117e73fa3654053f409"
+      },
+      {
+        "source": "Lean/Tests/China/FixedRatioFeeModelTests.cs",
+        "git_blob": "a0ac616c195fbf410199fc635793b3ebff94b59f"
+      },
+      {
+        "source": "Lean/Tests/China/FixedRatioFutureMarginModelTests.cs",
+        "git_blob": "51e27ca1732e0b88563164b3da1635decfe37cc2"
+      },
+      {
+        "source": "Lean/Tests/China/FutureAlgorithmTests.cs",
+        "git_blob": "bab4665df0a97746d1cb40940402dab61034e259"
+      },
+      {
+        "source": "Lean/Tests/China/FutureDailyPlusBarTests.cs",
+        "git_blob": "5d403cd1d9e69f4bb74582f571531b1df6b6d49f"
+      },
+      {
+        "source": "Lean/Tests/China/FutureSettlementModelTests.cs",
+        "git_blob": "bbbc05afcf98f5b34f934c4892c8593e1f7d7b8f"
+      },
+      {
+        "source": "Lean/Tests/China/PessimisticSlippageModelTests.cs",
+        "git_blob": "8a2f096b61b39c2481d317904b51f61fe3579880"
+      }
+    ]
+  }
 }

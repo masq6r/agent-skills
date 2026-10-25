@@ -1,12 +1,21 @@
 ---
 name: quantconnect
-description: "使用 QuantConnect／LEAN 的 Python 或 C# API 编写、调试和优化交易算法，处理历史数据、指标、动态选股、期货、期权及基本面字段，并查询 QuantConnect Cloud 的数据导出与定价规则。适用于明确使用 QuantConnect 或 LEAN 的任务；不用于一般投资建议，也不用于本地扩展行情文件格式的专项说明。"
+description: "使用 QuantConnect／LEAN 编写、调试和优化交易算法，处理数据、指标、选股、期货、期权及基本面字段，查询 Cloud 导出与定价规则；支持 TradeLab 本地 F# China 国内期货扩展和 Fathom 回测／优化启动器。适用于明确使用 QuantConnect、LEAN、QuantConnect.China 或 Fathom 的任务，不用于一般投资建议。"
 license: Apache-2.0
 ---
 
 # QuantConnect / LEAN
 
-统一使用 QuantConnect 官方技能中的算法开发、数据与平台指引。先确认用户任务、语言、项目运行环境和目标版本，再按下表只读取相关主题；无需一次加载全部字段表或另一种语言的示例。
+统一使用 QuantConnect 官方技能及 TradeLab 本地扩展中的算法开发、数据与平台指引。先确认用户任务、语言、项目运行环境和目标版本，再按需读取相关主题；无需一次加载全部字段表或另一种语言的示例。
+
+## TradeLab 本地扩展
+
+本机源码根目录为 `~/repos/eXp.nXt/TradeLab`，LEAN 引擎在其 `Lean/` 下；China 位于 `Lean/China`，Fathom 位于同级的 `Fathom/`。这些路径是已核对的本机位置，其他环境应先定位对应 checkout。
+
+- [China：国内期货算法与交易模型](references/tradelab/china.md)：涉及 F# `FutureAlgorithm`、`FutureDailyPlusBar`／`AddDailyPlus`、CNH、结算价、保证金、手续费、悲观滑点及国内合约身份时先读。
+- [Fathom：本地回测与参数优化](references/tradelab/fathom.md)：涉及 `Backtests`／`Fathom` 启动、`--optimisation`、`.o.json`、TUI、子进程和共享内存数据提供器时先读。
+
+本地扩展的专用契约优先于下方上游通用示例：先确认是否继承 `QuantConnect.China.FutureAlgorithm`，以及实际使用的模型、合约和数据配置。上游 Python/C# 示例不代表这些 F# 扩展已经在 Cloud 或其他 LEAN 发行版中安装。
 
 ## 使用方式
 
@@ -69,3 +78,4 @@ license: Apache-2.0
 - 覆盖 Python、C# 各 35 个上游技能及其全部 10 份定价参考；两种语言内容完全相同的 `data-export`、`pricing` 及定价参考只保存一份。语言相关示例与完整字段表保持分开。
 - 原技能改为 `guide.md`，原 frontmatter 中的适用条件移为 `Upstream scope`，加入来源与修改说明，正文保留。跨主题名称通过此入口解析；定价指南的相对链接保持可用。
 - [sources.json](sources.json) 逐项记录上游路径、Git blob、目标文件与转换方式；[LICENSE](LICENSE) 保留上游 Apache-2.0 许可。更新时先核对固定提交与各文件来源，再检查主题覆盖、相对链接和单一入口。
+- 本地扩展另以 TradeLab 提交 `94c61738d86d102ac3ca7f1f6398ba9272a2f56c` 为源码基线，核对日期为 2026-10-25；证据路径与 blob 记录在 `sources.json` 的 `local_extensions`，与官方技能来源分开维护。
